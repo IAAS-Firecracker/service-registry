@@ -1,6 +1,10 @@
 HELP.md
-*/target/
-!*/target/*.jar
+*/target/*classes/
+*/target/*sources/
+*/target/maven*/
+*/target/*reports/
+
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
