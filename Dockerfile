@@ -21,7 +21,7 @@ WORKDIR /app
 # Copier le JAR construit depuis l'étape de construction
 #COPY --from=build /app/target/*.jar app.jar
 
-COPY ./target/*.jar app.jar
+COPY ./target/service-registry.jar app.jar
 # Exposer le port de l'application
 EXPOSE 8761
 
